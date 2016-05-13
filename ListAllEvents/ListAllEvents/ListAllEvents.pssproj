@@ -30,6 +30,12 @@
     <Compile Include="Get-LegacyEventSourceMessages.ps1" />
     <Compile Include="Get-ProviderEventMessages.ps1" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tools\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tools\msgdump.exe" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
 </Project>
